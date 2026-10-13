@@ -18,7 +18,6 @@
 
   <script src="js/utils.js" defer></script>
   <script src="js/effects.js" defer></script>
-  <script src="js/main.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#contingut">Salta al contingut</a>
@@ -33,95 +32,19 @@
     <img class="bg__img" src="assets/images/wallpaper-08.webp" alt="" decoding="async">
   </div>
 
-  <header class="site-header">
-    <div class="container site-header__inner">
-      <a class="brand" href="index.html" aria-label="RUSC.net, inici">
-        <span class="brand__mark" aria-hidden="true"></span>
-        <span class="brand__name">RUSC<span class="brand__tld">.net</span></span>
-      </a>
-      <nav class="nav" aria-label="Navegació principal">
-        <ul class="nav__list">
-          <li><a class="nav__link is-current" href="index.html" aria-current="page">Inici</a></li>
-          <li><a class="nav__link" href="contacte.html">Contacte</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
   <main id="contingut">
     <section class="hero" aria-labelledby="titol-principal">
       <div class="container">
         <p class="hero__kicker">Codi obert · Català</p>
         <h1 id="titol-principal" class="hero__title">RUSC<span class="hero__tld">.net</span></h1>
         <p class="hero__subtitle">Associació en defensa de l'ús i promoció d'aplicatius de codi obert traduïts al Català</p>
-        <div class="hero__actions">
-          <a class="btn btn--primary" href="#missio">Qui som</a>
-          <a class="btn btn--ghost" href="contacte.html">Contacta'ns</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="missio" class="section" aria-labelledby="titol-missio">
-      <div class="container">
-        <h2 id="titol-missio" class="section__title">La nostra missió</h2>
-        <div class="prose">
-          <p>
-            RUSC.net és una associació sense ànim de lucre que treballa perquè
-            qualsevol persona pugui utilitzar el seu ordinador, el seu telèfon o
-            la seva tauleta en català, amb programari lliure i de codi obert.
-          </p>
-          <p>
-            Defensem el dret a escollir programari que respecti la nostra
-            llibertat, i promovem la traducció i la localització dels
-            aplicatius més útils del dia a dia perquè ningú es quedi fora
-            perquè la seva llengua no hi és.
-          </p>
-        </div>
-
-        <ul class="cards">
-          <li class="card">
-            <h3 class="card__title">Ús</h3>
-            <p class="card__text">Defensem l'accés lliure al coneixement i l'ús de programari que garanteixi els drets de les persones usuàries.</p>
-          </li>
-          <li class="card">
-            <h3 class="card__title">Promoció</h3>
-            <p class="card__text">Fomentem la comunitat, la formació i la difusió de les eines de codi obert a l'escola, a casa i a l'empresa.</p>
-          </li>
-          <li class="card">
-            <h3 class="card__title">Traducció</h3>
-            <p class="card__text">Acompanyem traductors i desenvolupadors perquè els aplicatius arribin complets i actualitzats en català.</p>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="contacte-resum" class="section section--alt" aria-labelledby="titol-contacte">
-      <div class="container container--narrow">
-        <h2 id="titol-contacte" class="section__title">Fes-nos arribar la teva veu</h2>
-        <p class="section__lead">
-          Suggeriments, incidències de traducció, col·laboracions o simplement
-          ganes de dir hola: som una associació oberta i ens agrada escoltar.
+        <p class="hero__meta">
+          <a class="hero__email" href="mailto:info@rusc.net">info@rusc.net</a>
+          <span class="hero__sep" aria-hidden="true">·</span>
+          <span class="hero__friend">RUSC és amic d'<a href="https://www.abellot.net" target="_blank" rel="noopener">Abellot.net</a></span>
         </p>
-        <ul class="contact-mini">
-          <li><span class="contact-mini__label">Correu</span> <a href="mailto:hola@rusc.net">hola@rusc.net</a></li>
-          <li><span class="contact-mini__label">Xarxes</span> <a href="#">@ruscnet</a></li>
-          <li><span class="contact-mini__label">Fòrum</span> <a href="#">foro.rusc.net</a></li>
-        </ul>
-        <a class="btn btn--primary" href="contacte.html">Veure pàgina de contacte</a>
       </div>
     </section>
   </main>
-
-  <footer class="site-footer">
-    <div class="container site-footer__inner">
-      <p class="site-footer__copy">© <span data-year>2026</span> RUSC.net — Associació de programari lliure en català.</p>
-      <ul class="site-footer__links">
-        <li><a href="index.html">Inici</a></li>
-        <li><a href="contacte.html">Contacte</a></li>
-        <li><a href="#">Mastodon</a></li>
-        <li><a href="#">Git</a></li>
-      </ul>
-    </div>
-  </footer>
 </body>
 </html>

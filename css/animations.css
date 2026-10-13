@@ -1,8 +1,7 @@
-.site-header,
 .hero__kicker,
 .hero__title,
 .hero__subtitle,
-.hero__actions {
+.hero__meta {
   animation: fade-up 0.9s ease both;
 }
 
@@ -18,7 +17,7 @@
   animation-delay: 0.4s;
 }
 
-.hero__actions {
+.hero__meta {
   animation-delay: 0.55s;
 }
 
