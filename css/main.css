@@ -189,6 +189,21 @@ main {
   color: var(--crema-75);
 }
 
+.hero__friend-icon {
+  display: inline-block;
+  width: 6em;
+  height: 6em;
+  margin-inline-end: 0.45rem;
+  vertical-align: middle;
+  border-radius: 50%;
+  filter: drop-shadow(0 2px 6px rgba(43, 33, 24, 0.55));
+  transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.hero__friend:hover .hero__friend-icon {
+  transform: scale(1.06) rotate(-4deg);
+}
+
 .hero__friend a {
   color: var(--mel);
   text-decoration-color: var(--mel-50);
