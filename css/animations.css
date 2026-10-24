@@ -21,6 +21,24 @@
   animation-delay: 0.55s;
 }
 
+.hero__name {
+  animation: name-glow 4s ease-in-out infinite;
+}
+
+@keyframes name-glow {
+  0%,
+  100% {
+    text-shadow: 0 4px 24px rgba(43, 33, 24, 0.55);
+  }
+  50% {
+    text-shadow:
+      0 4px 24px rgba(43, 33, 24, 0.55),
+      0 0 8px rgba(255, 248, 231, 0.75),
+      0 0 22px rgba(255, 210, 94, 0.7),
+      0 0 48px rgba(245, 179, 1, 0.55);
+  }
+}
+
 .hero__tld {
   color: var(--mel);
   animation: tld-cycle 14s ease-in-out infinite;
@@ -87,5 +105,9 @@
   .hero__tld {
     animation: none;
     color: var(--mel);
+  }
+
+  .hero__name {
+    animation: none;
   }
 }
