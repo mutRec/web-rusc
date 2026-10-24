@@ -21,6 +21,45 @@
   animation-delay: 0.55s;
 }
 
+.hero__tld {
+  color: var(--mel);
+  animation: tld-cycle 14s ease-in-out infinite;
+}
+
+@keyframes tld-cycle {
+  0%,
+  11% {
+    color: #F5B301;
+  }
+  14.29%,
+  25.29% {
+    color: #FFD25E;
+  }
+  28.57%,
+  39.57% {
+    color: #FF9F1C;
+  }
+  42.86%,
+  53.86% {
+    color: #FF7A2F;
+  }
+  57.14%,
+  68.14% {
+    color: #FF5A3C;
+  }
+  71.43%,
+  82.43% {
+    color: #FF4D4D;
+  }
+  85.71%,
+  96.71% {
+    color: #FF6B6B;
+  }
+  100% {
+    color: #F5B301;
+  }
+}
+
 @keyframes fade-up {
   from {
     opacity: 0;
@@ -43,5 +82,10 @@
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+  }
+
+  .hero__tld {
+    animation: none;
+    color: var(--mel);
   }
 }
