@@ -1,7 +1,8 @@
 .hero__kicker,
 .hero__title,
 .hero__subtitle,
-.hero__meta {
+.hero__meta,
+.hero__mail-btn {
   animation: fade-up 0.9s ease both;
 }
 
@@ -19,6 +20,10 @@
 
 .hero__meta {
   animation-delay: 0.55s;
+}
+
+.hero__mail-btn {
+  animation-delay: 0.35s;
 }
 
 .hero__name {
