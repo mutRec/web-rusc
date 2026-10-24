@@ -199,11 +199,13 @@ main {
   top: -0.12em;
   border-radius: 50%;
   filter: drop-shadow(0 2px 6px rgba(43, 33, 24, 0.55));
-  transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+  /* transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1); */
+  transition: none;
 }
 
 .hero__friend:hover .hero__friend-icon {
-  transform: scale(1.06) rotate(-4deg);
+  /* transform: scale(1.06) rotate(-4deg); */
+  transform: none;
 }
 
 .hero__friend a {
